@@ -1,0 +1,76 @@
+.Container{
+
+  display: grid;
+   grid-template-columns: 30% 35% 35%;
+   grid-template-areas:100vw auto 100vw ;
+   height: 100vh;
+   width: 100vw;
+   margin:0 auto;
+   background-image: url(q4.avif);
+  
+}
+.Section1{
+
+  background:linear-gradient(45deg, #bdc3c7, #2c3e50);
+  grid-row-start: 1;
+  grid-column-end: span 3;
+  grid-row-end: span 1;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+
+
+}
+ .Section2{
+
+  grid-row-start: 2;
+   grid-row-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+   background-color: transparent;
+    
+ 
+
+ }
+ .Section2>img{
+
+  width: 180%;
+  height:auto;
+  border-radius: 1cm;
+ }
+
+.Section3{
+  grid-row-start: 2;
+   grid-row-end: span 2;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+   
+   background:linear-gradient(45deg, #bdc3c7, #2c3e50);
+    color:black;
+    font-size: larger;
+    font-weight: bolder;
+    
+
+
+
+}
+.Section4{
+
+  grid-row-start: 3;
+   grid-row-end: span 1;
+  
+   background-color: darkslategrey;
+   grid-column-start: 1;
+   grid-column-end: span 3;
+   margin-bottom: -1000px;
+}
+.Section4>img{
+
+  height: auto;
+  width: 100%;
+
+}
+
+
+
+

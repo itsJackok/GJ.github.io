@@ -1,0 +1,70 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-areas: "header"
+                         "body"
+                         "aside"
+                         "footer";
+     height: 100vh;
+     background-image: url('mobility mates/System-Integrator.jpg');
+}
+.header{
+    grid-area: header;
+    background-color: whitesmoke;
+    display: block;
+    box-shadow: 4px 5px 6px;
+    border-color: blueviolet;
+    border-radius: 1cm;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}  
+.header>img{
+    width: 25%;
+    height: auto;
+    float: right;
+    border-radius: 1cm;
+    box-shadow: 6px 7px 9px;
+    border-color: aqua;
+
+}
+
+
+.body{
+    grid-area: body;
+    color:black;
+    text-align: start;
+     box-shadow: 4px 5px 7px;
+     display: block;
+     border-color: antiquewhite;
+    border-radius: 1cm;
+     box-shadow: 4px 5px 7px;
+     background:linear-gradient(45deg, #bdc3c7, #2c3e50);
+     background-size: cover;
+     font-size:x-large;
+     font-weight: bolder;
+
+
+
+
+
+}
+.aside{
+    grid-area: aside;
+    background-color: aquamarine;
+    display: block;
+    border-radius: 1cm;
+    border-color: blueviolet;
+    box-shadow: 7px 8px 9px;
+}
+.aside>img{
+    width: 20%;
+    height:auto;
+    border-radius: 4cm;
+    position: relative;
+    box-shadow: 6px 7px 9px;
+    border-color: red;
+}
+

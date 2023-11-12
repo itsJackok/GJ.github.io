@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+nav{
+    height: auto;
+    width: 100%;
+    background-image: url("DV1.jpeg");
+    overflow: hidden;
+    /*position: fixed;
+    /*top:0;*/
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#top{
+    float: inline-end;
+}
+a{
+    padding: 10px;
+    width: 40%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#section1{
+    height: 800px;
+    background:linear-gradient(45deg, #bdc3c7, #2c3e50);
+    width: 100%;
+}
+#section2{
+    height: 800px;
+    background:linear-gradient(45deg, #bdc3c7, #2c3e50);
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+*{ margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+
+}
+body{
+
+  background-image: url(qualtity.jpg);
+  
+}
+.Accordian{
+  margin: 60px auto;
+  width: 600px;
+
+}
+.Accordian li{
+  list-style: none;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color:rgb(233, 249, 255) ;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0,0.15) -6px -6px 10px -1px rgba(255, 255,255,0.7);
+}
+.Accordian li label{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-weight: 500;
+  font-size: large;
+  cursor: pointer;
+
+}
+label::before{
+ 
+  margin-right: 10px;
+  font-size: large;
+  font-weight: 600;
+}
+input[type="radio"]{
+
+  display: none;
+}
+.Accordian .content{
+  color: black;
+  padding: 0 10px;
+ 
+
+
+}
